@@ -1,11 +1,13 @@
 # Description
 A node module to consume the Creative Commons Catalog REST API from NodeJS
 
+[Work in Progress]
+
 # Installation
 
 * Clone the repository locally.
 * `cd` into the cloned folder (`cd CC-Search-JS-Client`).
-* Run `npm link` (creates a global symlink to this library).
+* Run `sudo npm link` (creates a global symlink to this library).
 * `cd` into your project and run `npm link cc-client`. (creates a local symlink to global cc-client)
 
 # Usage
@@ -49,4 +51,3 @@ cc.imageStats(error, success)
 cc.readWatermark('198eb300-8f6c-44e8-a4b9-45dbf93d3edf', error, success)
 
 ```
-
